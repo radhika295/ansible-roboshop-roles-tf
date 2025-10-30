@@ -1,9 +1,9 @@
-MONGODB_HOST: mongodb.devtraining.icu
-REDIS_HOST: reddis.devtraining.icu
-CATALOGUE_HOST: catalogue.devtraining.icu
-CART_HOST: cart.devtraining.icu
-MYSQL_HOST: mysql.devtraining.icu
-USER_HOST: user.devtraining.icu
-RABBITMQ_HOST: rabbitmq.devtraining.icu
-SHIPPING_HOST: shipping.devtraining.icu
-PAYMENT_HOST: payment.devtraining.icu
+MONGODB_HOST: mongodb-{{ env }}.devtraining.icu
+REDIS_HOST: reddis-{{ env }}.devtraining.icu
+CATALOGUE_HOST: catalogue-{{ env }}.devtraining.icu
+CART_HOST: cart-{{ env }}.devtraining.icu
+MYSQL_HOST: mysql-{{ env }}.devtraining.icu
+USER_HOST: user-{{ env }}.devtraining.icu
+RABBITMQ_HOST: rabbitmq-{{ env }}.devtraining.icu
+SHIPPING_HOST: shipping-{{ env }}.devtraining.icu
+PAYMENT_HOST: payment-{{ env }}.devtraining.icu
