@@ -1,1 +1,1 @@
-MONGODB_HOST: mongodb.devtraining.icu
+MONGODB_HOST: mongodb-{{ env }}.devtraining.icu
