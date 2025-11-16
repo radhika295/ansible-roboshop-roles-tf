@@ -5,5 +5,5 @@ CART_HOST: cart.backend-alb-{{ env }}.devtraining.icu
 MYSQL_HOST: mysql-{{ env }}.devtraining.icu
 USER_HOST: user.backend-alb-{{ env }}.devtraining.icu
 RABBITMQ_HOST: rabbitmq-{{ env }}.devtraining.icu
-SHIPPING_HOST: shipping-backend-alb-{{ env }}.devtraining.icu
+SHIPPING_HOST: shipping.backend-alb-{{ env }}.devtraining.icu
 PAYMENT_HOST: payment.backend-alb-{{ env }}.devtraining.icu
