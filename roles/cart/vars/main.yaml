@@ -1,2 +1,4 @@
-REDIS_HOST: reddis.devtraining.icu
-CATALOGUE_HOST: catalogue.devtraining.icu
+# REDIS_HOST: reddis.devtraining.icu
+# CATALOGUE_HOST: catalogue.devtraining.icu
+
+SPECIFIC_VAR: specific-value
