@@ -1,5 +1,5 @@
 MONGODB_HOST: mongodb-{{ env }}.devtraining.icu
-REDIS_HOST: reddis-{{ env }}.devtraining.icu
+REDIS_HOST: redis-{{ env }}.devtraining.icu
 CATALOGUE_HOST: catalogue.backend-alb-{{ env }}.devtraining.icu
 CART_HOST: cart.backend-alb-{{ env }}.devtraining.icu
 MYSQL_HOST: mysql-{{ env }}.devtraining.icu
